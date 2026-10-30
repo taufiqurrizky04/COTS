@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555;
+    background-color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+body > table:first-of-type {
+    background-color: #d0d0d0;
+    height: 20px;
+}
+
+body > table:first-of-type td {
+    padding: 4px;
+}
+
+body > table:first-of-type b {
+    color: #333;
+    text-transform: uppercase;
+}
+
+body > table:nth-of-type(2) {
+    margin: 5px 0;
+    height: 23px;
+}
+
+button {
+    padding: 4px 7px;
+    border: 1px solid #d5d5d5;
+    background-color: #f5f5f5;
+    color: #555;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e7e7e7;
+}
+
+button img {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+input[type="text"] {
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    font-size: 11px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #aaa;
+}
+
+body > table:nth-of-type(3) {
+    width: 100%;
+    table-layout: fixed;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td {
+    padding: 0;
+    vertical-align: top;
+}
+
+aside {
+    background-color: #454545;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 23px;
+    padding: 0 10px;
+}
+
+aside h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 8px 0;
+}
+
+body > table:nth-of-type(3) td h4 {
+    font-size: 11px;
+    line-height: 1.4;
+    margin: 8px 0 3px;
+    color: #555;
+}
+
+small {
+    display: block;
+    color: #888;
+    font-size: 10px;
+    text-align: right;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:first-child {
+    width: 32%;
+    padding-right: 8px;
+    border-right: 3px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+dashboard {
+    display: block;
+    background-color: #f15a24;
+    color: white;
+    height: 24px;
+    padding: 4px 10px;
+    margin-bottom: 8px;
+    border-bottom: 3px solid #d94b1a;
+}
+
+dashboard h3 {
+    margin: 0;
+    font-size: 12px;
+}
+
+dashboard ~ button {
+    margin-right: 3px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child table {
+    margin-top: 5px;
+    border-collapse: separate;
+    border-spacing: 10px 0;
+    table-layout: fixed;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 33.33%;
+    padding: 12px 5px 8px;
+    vertical-align: middle;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child table td:nth-child(1) {
+    background-color: #20bd50;
+    color: white;
+    border-color: #20bd50;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child table td:nth-child(2) {
+    background-color: #1db5d5;
+    color: white;
+    border-color: #1db5d5;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child table td:nth-child(3) {
+    background-color: #f34d53;
+    color: white;
+    border-color: #f34d53;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child table td img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child table td p {
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+a {
+    display: block;
+    padding: 6px 0;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child > input[type="text"] {
+    width: 85%;
+    margin-top: 8px;
+}
+
+body > table:nth-of-type(3) > tbody > tr > td:last-child > input[type="text"] + button {
+    margin-top: 8px;
+}
+
+
+
